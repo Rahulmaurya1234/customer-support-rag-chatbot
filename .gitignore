@@ -1,0 +1,57 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.so
+
+# Virtual Environments
+
+.venv/
+venv/
+env/
+
+# Conda
+
+.envrc
+
+# Environment Variables
+
+.env
+
+# FAISS Index
+
+data/faiss_index/
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Python Cache
+
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Build
+
+build/
+dist/
+*.egg-info/
+
+# Model Cache
+
+.cache/
+hf_cache/
